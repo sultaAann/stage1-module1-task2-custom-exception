@@ -10,9 +10,8 @@ public class StudentManager {
     if (st != null) {
       return st;
     } else {
-      throw new CouldnFind("Could not find student with ID " + studentID);
+      throw new StudentNotFoundException("Could not find student with ID " + studentID);
     }
-
   }
 
   public static void main(String[] args){
