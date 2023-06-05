@@ -21,6 +21,5 @@ public class StudentManager {
       Student student = manager.find(id);
       System.out.println("Student name " + student.getName());
     }
-
   }
 }
